@@ -6,4 +6,9 @@ theme = "tokyonight-storm"
 
 initial-command = "tmux"
 
+keybind = "clear"
+keybind = "alt+ctrl+r=reload_config"
+keybind = "ctrl+shift+c=copy_to_clipboard"
+keybind = "ctrl+shift+v=paste_from_clipboard"
+
 # vim:ft=ghostty
