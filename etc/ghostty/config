@@ -1,3 +1,6 @@
+# Ghostty Configuration (handmade by @johnsmith0x3f)
+# Reference = https://ghostty.org/docs/config/reference
+
 font-family = "Maple Mono NFMono CN"
 font-feature = "-calt, +cv01, +cv02"
 font-size = 15
