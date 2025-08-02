@@ -1,1 +1,5 @@
+font-family = "Maple Mono NFMono CN"
+font-feature = "-calt, +cv01, +cv02"
+font-size = 15
+
 # vim:ft=ghostty
