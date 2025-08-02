@@ -4,4 +4,6 @@ font-size = 15
 
 theme = "tokyonight-storm"
 
+initial-command = "tmux"
+
 # vim:ft=ghostty
