@@ -7,8 +7,6 @@ font-size = 15
 
 theme = "tokyonight-storm"
 
-initial-command = "tmux"
-
 keybind = "clear"
 keybind = "alt+ctrl+r=reload_config"
 keybind = "ctrl+shift+c=copy_to_clipboard"
