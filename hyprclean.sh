@@ -1,20 +1,21 @@
 #!/usr/bin/env bash
 
-# Only support Arch-based distros.
 if ! type pacman &> /dev/null; then
 	echo -e "\x1B[1;31mFailed to find pacman. Aborting...\x1B[0m"
 	exit 1
 fi
 
-cd "$( dirname "$0" )"
-
 declare -a deps=(
+	fastfetch
 	git
 	hypridle
 	hyprland
 	hyprlock
 	hyprpaper
+	tmux
 )
+
+cd "$( dirname "$0" )"
 
 hyprclean-help() {
 	cat <<-EOF
