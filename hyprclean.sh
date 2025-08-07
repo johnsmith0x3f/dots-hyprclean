@@ -12,6 +12,7 @@ declare -a deps=(
 	hyprland
 	hyprlock
 	hyprpaper
+	stow
 	tmux
 )
 
