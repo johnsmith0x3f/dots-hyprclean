@@ -14,6 +14,7 @@ declare -a deps=(
 	hyprpaper
 	stow
 	tmux
+	wmenu
 )
 
 cd "$( dirname "$0" )"
@@ -47,7 +48,7 @@ hyprclean-install() {
 			echo "$XDG_DATA_HOME/${file##*/}" "->" ".backup/usr/share/${file##*/}"
 		fi
 	done
-	echo -e "\x1B[1;32mDone.\x1B[0m"
+	echo -e "\x1B[1;32mDone. Old configs moved to $( dirname "$0" )/.backup\x1B[0m"
 
 	echo ""
 
